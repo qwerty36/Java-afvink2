@@ -16,7 +16,7 @@ public class afvink2 extends JFrame implements ActionListener {
     }
 
     private void createGUI() {
-        setTitle("Watermolecuul Richard");
+        setTitle("NSA PRISM VISUALISER");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         Container window = getContentPane();
         window.setLayout(new FlowLayout());
@@ -34,7 +34,7 @@ public class afvink2 extends JFrame implements ActionListener {
         field2 = new JTextField(3);
         window.add(field2);
 
-        button = new JButton("Teken water molecuul");
+        button = new JButton("Draw That Shit");
         button.addActionListener(this);
         window.add(button);
     }
