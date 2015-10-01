@@ -16,7 +16,7 @@ public class afvink2 extends JFrame implements ActionListener {
     }
 
     private void createGUI() {
-        setTitle("NSA PRISM VISUALISER");
+        setTitle("NSA PRISM VISUALISER!");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         Container window = getContentPane();
         window.setLayout(new FlowLayout());
